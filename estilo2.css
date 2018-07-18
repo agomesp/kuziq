@@ -1,0 +1,450 @@
+@charset 'utf-8';
+@font-face {
+    font-family: 'anurati';
+    src: url('_fonts/anurati-regular-webfont.woff2') format('woff2'),
+         url('_fonts/anurati-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'orkney';
+    src: url('_fonts/orkney-light-webfont.woff2') format('woff2'),
+         url('_fonts/orkney-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'duw';
+    src: url('_fonts/swistblnk_duwhoers_brush-webfont.woff2') format('woff2'),
+         url('_fonts/swistblnk_duwhoers_brush-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+	margin:0;
+	background-color: #3d3d3d;
+}
+div#left{
+	float:left;
+    height:100vh;
+    width:60vw;
+    background: black url('_img/banda.jpg') center center no-repeat;
+    background-size:cover;
+    shape-margin: 20px;
+    -webkit-clip-path: polygon(0 100%,66% 100%,100% 0px,0 0);
+    line-height: 0;
+    transition: color 3s;
+}
+h2{
+	transition: color 1s;
+}
+img#logo{
+	float: left;
+	width: 7vw;
+}
+.cotainer-header{
+	width: 100%;
+	position: relative;
+	margin-top: 20px;
+	line-height: 0;
+	color: white;
+}
+
+#header-main{
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;
+}
+
+
+
+h1#h1inicial{
+	font-family: duw;
+}
+div#right{
+	float:right;
+    height:100vh;
+    width:60vw;
+    background: black url('_img/solo.jpg') center center no-repeat;
+    background-size:cover;
+    shape-margin: 20px;
+    -webkit-clip-path: polygon(0px 100%,100% 100%,100% 0,34% 0);
+    margin-top: -100vh;
+    position: relative;
+}
+
+a.left:hover > h2{
+	color: #e64c66;
+}
+
+a.right:hover > h2{
+	color: #e64c66;
+}
+.initialleft, .initialright{
+	width: 40vw;
+	text-align: center;
+	color: white;
+	line-height: 0;
+}
+h2.initialleft, h2.initialright{font-family: anurati; font-size: 55px; letter-spacing: -10px;}
+.initialright{
+	margin-left: 20vw;
+}
+p.initialleft{
+	margin-top: 37vh;
+}
+
+p.initialright{
+	margin-top: 54vh;
+}
+ul.inicial{
+	list-style: none;
+	float: right;
+	display: inline-block;
+	color: white;
+	font-family: orkney;
+	position: relative;
+	font-size: 12px;
+}
+li{
+	display: inline;
+}
+li:hover{
+	color: #e64c66;
+}
+p{
+	font-family: orkney;
+}
+button{
+	cursor: pointer;
+}
+button#saibamais{
+	margin: 0;
+	position: relative;
+	z-index: 1;
+	margin-left: -19vw;
+	margin-top: 90vh;
+	background-color: rgb(230, 76, 102);
+	width: 222px;
+  	height: 59px;
+  	border: none;
+  	color: white;
+  	font-family: orkney;
+  	font-size: 20px;
+}
+button:hover{
+	background-color: rgb(230, 100, 102);
+}
+a{
+	font-family: orkney;
+	text-decoration: none;
+	color: white;
+}
+form{
+	margin-left: 13vw;
+	color: white;
+	font-family: orkney;
+}
+select{
+	margin-top: -5px;
+}
+div.select{
+	margin-left: 13vw;
+	padding-top: 10px;
+	color: white;
+	font-family: orkney;
+}
+p.textselect img{
+	float: left;
+	margin-top: -13px;
+	margin-right: 3px;
+}
+.filtrar {
+  margin-left: 13vw;
+  font-family: orkney;
+  color: #ffffff;
+  font-size: 16px;
+  background: #1bbc9b;
+  text-decoration: none;
+  border: none;
+  padding: 10px 20px 10px 20px;
+  margin-top: 10px;	
+}
+
+.filtrar:hover {
+  background: #44bda5;
+  text-decoration: none;
+}
+div#right form{
+	text-align: right;
+	margin-left: 0;
+	margin-right: 15vw;
+}
+div#right .select{
+	text-align: right;
+	margin-left: 0;
+	margin-right: 15vw;
+	margin-top: -10px;
+}
+
+div#right .select img{
+	float: right;
+	margin-top: -40px;
+	margin-right: -27px;
+}
+
+div#right p.textselect{
+	margin-left: -10px;
+}
+div.selectright{
+	margin-top: -15px;
+}
+div#right .filtrar{
+	margin-top: 10px;
+	margin-left: 517px;
+	position: relative;
+}
+.footerleft{
+	float: left;
+	color: white;
+	font-family: orkney;
+	top: 180px;
+	left: 20px;
+	font-size: 10px;
+	position: relative;
+}
+.footerleft{
+	float: left;
+	color: white;
+	font-family: orkney;
+	font-size: 9px;
+	top: 11vw;
+	position: relative;
+}
+.footerleft2{
+	float: left;
+	color: white;
+	font-family: orkney, Arial;
+	top: 25vh;
+	left: -32px;
+	font-size: 10px;
+	position: relative;
+}
+
+header.cabecalho{
+	height: 300px;
+	width: 100%;
+	text-align: center;
+	font-family: anurati;
+	margin-top: auto;
+	font-size: 25px;
+	display: block;
+}
+h2.initialleft, h2.initialright{
+	letter-spacing: 1px;
+}
+
+/*		Página Sobre		*/
+
+nav.navGeral{
+	height: 81px;
+	background-color: #3d3d3d ;
+	margin-top: -10px;
+	padding-top: 11px;
+	font-family: orkney;
+	color: white;
+}
+.containerNav{
+	width: 75vw;
+	margin: auto;
+
+}
+.containerNav img{
+	margin-top: 11px;
+	float: left;
+}
+.containerNav ul{
+	margin-top: 35px;
+	float: right;
+}
+header.sobre{
+	background: url("_img/headerSobre.jpg") center;
+}
+header.sobre h1{
+	line-height: 300px;
+	margin-top: auto;
+}
+#clientes{
+	height: 550px;
+	margin-top: auto;
+	background-color: white;
+	position: relative;
+	display: block;
+	text-align: center;
+	margin-top: 22%;
+	padding: 2% 0px 2% 0px;
+}
+.clientesComoFunciona{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 766px;
+	margin-top: auto;
+	font-family: orkney;
+	font-weight: lighter;
+}
+.clientesComoFunciona h2{
+	font-size: 3vw;
+}
+.clientesComoFunciona h3{
+	font-size: 30px;
+	margin-top: -20px;
+}
+.explicacao h2{
+	display: inline-block;
+	padding: 0px 9%;
+}
+.explicacao p{
+	width: 300px;
+	display: inline-block;
+	margin-top: 0;
+	padding: 0px 3%;
+	font-size: 15px;
+}
+.clientesComoFunciona img{
+	width: 70%;
+}
+#procurarMusico{
+	height: 6%;
+	border: none;
+	color: white;
+	background-color:#1bbc9b;
+}
+#musicos{
+	height: 550px;
+	margin-top: auto;
+	background-color:#1bbc9b;
+	position: relative;
+	display: block;
+	text-align: center;
+	padding: 2% 0px 2% 0px;
+}
+.musicosComoFunciona{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 766px;
+	margin-top: auto;
+	font-family: orkney;
+	font-weight: lighter;
+}
+.musicosComoFunciona h2{
+	font-size: 3vw;
+}
+.musicosComoFunciona h3{
+	font-size: 30px;
+	margin-top: -20px;
+}
+
+.musicosComoFunciona img{
+	width: 70%;
+}
+.musicosComoFunciona .explicacao h2{
+	padding: 0px 11%;
+	margin-left: -72px;
+}
+.musicosComoFunciona .explicacao p{
+	width: 300px;
+	display: inline-block;
+	margin-top: 0;
+	padding: 0px 5%;
+	font-size: 15px;
+	margin-left: -32px;
+}
+
+#juntar-se{
+	height: 6%;
+	border: none;
+	color: white;
+	background-color:#e64c66;
+	margin-left: -32px;
+}
+.liSelecionado{
+	color: #e64c66;
+}
+
+/* MÚSICOS */
+header.musicos{
+	background: url("_img/headerMusicos.jpg") center;
+}
+
+/* RODAPÉ */
+footer{
+	background: url("_img/backgroundRodape.jpg") center no-repeat;
+	width: 100%;
+	height: 100vh;
+	background-size: auto;
+	margin-top: -4%;
+	text-align: center;
+	position: relative;
+}
+footer li{
+	display: inline-block;
+}
+footer li:hover{
+	color: white;
+}
+footer p{
+	font-family: orkney;
+}
+.h1CabecalhoFooter{
+	font-family: anurati;
+	font-size: 72px;
+	color: white;
+	text-align: center;
+	position: relative;
+	padding-top: 20%;
+	margin-bottom: -1%;
+}
+.footerBottom{
+	width: 100%;
+	height: 50px;
+	position: absolute;
+	top: 575px;
+	color: white;
+}
+.footerGeralRight{
+	float: right;
+	margin-right: 30px;
+}
+.footerGeralLeft{
+	float: left;
+	display: inline;
+}
+#icoAllan{
+	margin-bottom: -5px;
+}
+
+
+
+/* =====================================================
+						CLEAR FIX
+===================================================== */
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}

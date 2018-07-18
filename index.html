@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="estilo.css"> 
+		<script src="js.js"></script>
+		<title>Kuziq - </title>
+	</head>
+	<body id="principal">
+		<main>
+			<div id="container-header">
+				<header id="header-main">
+					
+						<img id="logo" src="_img/logo.png">
+						<div id="header-frase">
+							<img class="kuziq" src="_img/Kuziq.png">
+							<p id="frase">Lorem ipsum dolor sit amet.</p>
+						</div>
+						<ul class="inicial">
+							<li><a href="sobre.php">SOBRE |</a></li>
+							<li><a href="musicos.php">MÚSICOS</a> |</li>
+							<li><a href="contato.php">CONTATO</a> |</li>
+							<li><a href="faq.php">FAQ</a> |</li>
+							<li><a href="juntar-se.php">JUNTAR-SE</a></li>
+						</ul>
+						<div class="clearfix"></div>
+				</header>
+
+				<div class="clearfix"></div>
+			</div>
+			<dir id="container-main">
+				<div id="top">
+					<a href="musicos.php"><p class="initialright">Contrate um músico</p>
+					<h2 class="initialright">SOLO</h2></a>
+				</div>
+				<div id="bottom">
+					<a href="musicos.php"><p class="initialleft">Contrate uma</p>
+					<h2 class="initialleft">BANDA</h2></a>
+				</div>
+
+				<div id='left'>
+					<a class="left" href="#" onclick="gerarEsquerdoTipo()"><p class="initialleft">Contrate uma</p>
+					<h2 class="initialleft">BANDA</h2></a>
+					<div class="clearfix"></div>
+
+					<div id="container-filtrar">
+						<div id="sub-container-filtrar">
+							<form id="form-left">
+								<label id="label-filtrar-left"><!-- <input class="checkbox" type="checkbox" value="cover">Músicas covers --></label><br>
+								<label id="label-filtrar-left2"><!-- <input class="checkbox" type="checkbox" value="propria">Músicas próprias --></label>
+							</form>
+							<div id="esquerdo-local">
+							<!--<div class="container-select-left">
+								 <p class="genero-left">Gênero</p><input id="input-left" type="image" src="_img/generoico.png"> 
+							</div>-->
+
+							<!-- <select id="select-left">
+								<option value="nada"></option>
+								<option value="blues">Blues</option>
+								<option value="rock">Rock</option>
+								<option value="pop">Pop</option>
+								<option value="eletro">Eletrônica</option>
+							</select> -->
+							</div>
+
+							<div id="esquerdo-genero">
+							<!-- <div class="container-select-left">
+								<p class="genero-left">Onde você está?</p><input id="input-left" type="image" src="_img/localico.png">
+							</div>
+								
+							<select class="select-left">
+								<option value="nada"></option>
+								<option value="rj">Rio de Janeiro</option>
+								<option value="sp">São Paulo</option>
+								<option value="mg">Minas Gerais</option>
+								<option value="pe">Pernambuco</option>
+							</select>-->
+							</div>
+							
+							
+							<!-- <button id="button-filtrar-left">FILTRAR</button>
+							<div class="clearfix"></div> --> 
+						</div> <!-- sub container filtrar-->
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				
+				<div id='right'>
+					<a class="right" href="#" onclick="gerarDireitoTipo()"><p class="initialright">Contrate um músico</p>
+					<h2 class="initialright">SOLO</h2></a>
+					
+					<div id="container-filtrar">
+						<div id="sub-container-filtrar">
+							<form id="form-right">
+								<label id="label-filtrar-right"><!-- Músicas covers<input class="checkbox" type="checkbox" value="cover"> --></label><br>
+								<label id="label-filtrar-right2"><!-- Músicas próprias<input class="checkbox" type="checkbox" value="propria"> --></label>
+							</form>
+
+							<div id="direito-local">
+								<!-- <div class="container-select-right">
+									<p class="genero-right">Gênero</p><input id="input-right" type="image" src="_img/generoico.png">
+								</div>
+
+								<select class="select-right">
+									<option value="nada"></option>
+									<option value="blues">Blues</option>
+									<option value="rock">Rock</option>
+									<option value="pop">Pop</option>
+									<option value="eletro">Eletrônica</option>
+								</select> -->
+							</div>
+							<div id="direito-genero"></div>
+							<!-- <div class="container-select-right">
+								<p class="genero-right">Onde você está?</p><input id="input-right" type="image" src="_img/localico.png">
+							</div>
+								
+							<select class="select-right">
+								<option value="nada"></option>
+								<option value="rj">Rio de Janeiro</option>
+								<option value="sp">São Paulo</option>
+								<option value="mg">Minas Gerais</option>
+								<option value="pe">Pernambuco</option>
+							</select> -->
+							
+							
+							<!-- <button id="button-filtrar-right">FILTRAR</button> -->
+							<div class="clearfix"></div>
+						</div> <!-- sub container filtrar-->
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</dir>
+			
+			
+				<a href="sobre.php"><button id="saibamais">SAIBA MAIS</button></a>
+				
+				<div id="footer-sub-left">
+					<p class="footerleft">Kuziq, Ltda.</p>
+					<div id="footer-left-p">
+						<p class="p-left-left">COPYRIGHT © 2016</p>
+						<p class="p-left-right">kuziq@kuziq.com</p>
+					</div>
+				</div>
+				<div id="footer-sub-right">
+					<img id="icoAllan" src="_img/icoAllan.png">
+					<p>Criado por:</p><br>
+					<p><a href="http://allangomes.com">Allan Gomes</a></p>
+				</div>
+				
+			
+		</main>
+	</body>
+</html>
